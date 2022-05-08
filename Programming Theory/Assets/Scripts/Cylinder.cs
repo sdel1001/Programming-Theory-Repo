@@ -2,6 +2,8 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
+
+// INHERITANCE
 public class Cylinder : Shape
 {
     // Start is called before the first frame update
@@ -10,6 +12,7 @@ public class Cylinder : Shape
         SetProperties("Cylinder", Color.green);
     }
 
+    // POLYMORPHISM”
     protected override void OnClick()
     {
         base.OnClick();

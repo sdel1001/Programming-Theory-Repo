@@ -8,6 +8,7 @@ public class Shape : MonoBehaviour
     string m_Name;
     Color m_Color;
 
+    // ENCAPSULATION” 
     public string Name   // property
     {
         get { return m_Name; }   // get method
